@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F: '$2 == "!" {print $1}' /etc/shadow
+cut -d: -f1 /etc/passwd
