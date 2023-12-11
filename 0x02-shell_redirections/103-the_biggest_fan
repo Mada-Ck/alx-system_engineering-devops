@@ -1,2 +1,2 @@
 #!/bin/bash
-join <(cut -d: -f1,2 /etc/passwd) <(cut -d: -f1,2 /etc/shadow)
+cut -d: -f1 /etc/passwd
